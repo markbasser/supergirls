@@ -101,7 +101,7 @@ async def on_message(message):
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441>")  # f文字列（フォーマット済み文字列リテラル）
        
-    f message.content == "<:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441>":
+    if message.content == "<:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441> <:xjpsupergirls_01:757806007475896441>":
         # チャンネルへメッセージを送信
         await message.channel.send(f"<:xjpsupergirls_02:757807252496318535> <:xjpsupergirls_02:757807252496318535> <:xjpsupergirls_02:757807252496318535>")  # f文字列（フォーマット済み文字列リテラル）
     
