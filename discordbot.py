@@ -54,14 +54,6 @@ async def loop():
     if now == '06:37':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/741585316703633419/757759841237205103/xjpsupergirls_ani02ban.gif') 
-
-　　if now == '07:10':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://cdn.discordapp.com/attachments/741585316703633419/758668048613507102/xjpgirls2.png') 
-
-    if now == '07:40':
-        channel = client.get_channel(CHANNEL_ID)
-        await channel.send('https://cdn.discordapp.com/attachments/741585316703633419/757759831473127524/xjpsupergirls_ani01ban.gif')   
         
     if now == '08:00':
         channel = client.get_channel(CHANNEL_ID)
@@ -79,7 +71,7 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/741585316703633419/757159787996905552/xjpimage02.gif') 
 
-　  if now == '13:40':
+    if now == '13:40':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('https://cdn.discordapp.com/attachments/741585316703633419/758668048613507102/xjpgirls2.png') 
         
@@ -186,3 +178,4 @@ async def on_message(message):
 
 # Botの起動とDiscordサーバーへの接続
 client.run(token)
+
