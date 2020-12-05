@@ -135,14 +135,14 @@ async def on_message(message):
         q = await message.channel.send("/link ")
         [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
 
-    elif message.content == "r/language":
+    elif message.content == "r/r":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /language EN ")
+        q = await message.channel.send("+r")
         [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
               
-    elif message.content == "r/accept":
+    elif message.content == "r/bal":
         # リアクションアイコンを付けたい
-        q = await message.channel.send(" /accept ")
+        q = await message.channel.send("+bal")
         [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
 
     elif message.content == "b/benzan":
