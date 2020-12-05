@@ -137,7 +137,7 @@ async def on_message(message):
 
     elif message.content == "r/r":
         # リアクションアイコンを付けたい
-        q = await message.channel.send("+r")
+        q = await message.channel.send("$deposit")
         [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
               
     elif message.content == "r/bal":
